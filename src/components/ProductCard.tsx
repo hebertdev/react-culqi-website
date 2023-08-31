@@ -134,6 +134,24 @@ export function ProductCard({ changeEvent }: ProductCardProps) {
               Pagar ahora
             </Button>
           </Group>
+          <small>
+            {" "}
+            De alguna manera pensé que al subir a un servidor esta web
+            funcionaría el checkout con una clave de prueba xd, clona el repo y
+            reemplaza tu llave publica de prueba en la variable de entorno.
+            <a
+              href="https://github.com/hebertdev/react-culqi-website"
+              target="_blank"
+              referrerPolicy="no-referrer"
+              style={{
+                fontWeight: "bold",
+                textDecoration: "underline",
+                marginLeft: "5px",
+              }}
+            >
+              REPO
+            </a>
+          </small>
         </Card.Section>
       </Card>
     </>

@@ -18,7 +18,10 @@ export default function Home() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={"https://culqi.hebertdev.net/en"} />
+        <meta
+          property="og:url"
+          content={"https://react-culqi.hebertdev.net/"}
+        />
         <meta property="og:title" content={"React Culqi | hebertdev"} />
         <meta
           property="og:description"
@@ -33,7 +36,10 @@ export default function Home() {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={"https://culqi.hebertdev.net/"} />
+        <meta
+          property="twitter:url"
+          content={"https://react-culqi.hebertdev.net/"}
+        />
         <meta property="twitter:title" content={"React Culqi | hebertdev"} />
         <meta
           property="twitter:description"

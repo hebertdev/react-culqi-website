@@ -21,7 +21,8 @@ export function Version4Culqi() {
   };
 
   return (
-    <CulqiProvider publicKey={process.env.NEXT_PUBLIC_KEY || "hola"}>
+    // <CulqiProvider publicKey={process.env.NEXT_PUBLIC_KEY || ""}>
+    <CulqiProvider publicKey="pk_test_87f7a99e65683920">
       <Box
         sx={{
           display: "flex",
